@@ -24,7 +24,7 @@ const Notecard = ({
         <div className='main-card'>
             <div className='card-title-data-holder'>
                 <div className='title-and-date-container'>
-                    <span className='title'>{title}</span> <br />
+                    <span id='title-card' className='title'>{title}</span> <br />
                     <span className='date'>{moment(date).format('Do MMM YYYY')}</span>
                 </div>
                 

@@ -29,7 +29,7 @@
   
   .tag {
     background-color: #e0e0e0;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 5px 10px;
     display: inline-flex;
     align-items: center;
@@ -62,8 +62,8 @@
     background-color: #0078d4;
     color: white;
     border: none;
-    padding: 8.7px;
     border-radius: 4px;
+    padding-top: 5px;
     cursor: pointer;
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;

@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     gap: 2px;
-
+    border: white 1px solid;
 }
 
 .title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: large;
 }
 
@@ -16,6 +16,11 @@
     padding: 4px;
     margin-top: 5px;
     margin-bottom: 0px;
+    background-color: #d2d2d288;
+    border: none;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .edit-card-content {
@@ -26,7 +31,7 @@
 }
 
 .content {
-    font-weight: 500;
+    font-weight: 700;
     font-size: large;
 }
 
@@ -37,8 +42,14 @@
     padding-left: 15px;
     margin-top: 5px;
     height: 220px;
-    width: 570px;
+    width: 595px;
+    max-width: 610px;
+    min-width: 595px;
+    min-height: 220px;
+    max-height: 350px;
+    border: none;
     background-color: #d2d2d288;
+    margin-bottom: 10px;
 }
 
 .edit-card-btn {
@@ -51,10 +62,14 @@
 }
 
 .tags {
-    font-weight: 500;
+    font-weight: 700;
     font-size: large;
+    
 }
 
+.edit-card-tags label {
+    color: black;
+}
 .add-close-btn-container {
     display: flex;
     justify-content: space-between;
@@ -65,13 +80,24 @@
     /* Make sure the container spans full width */
 }
 
-.edit-card-btn,
 .close-btn {
     padding: 10px 20px;
+    width: 100px;
+    height: 50px;
     border-radius: 5px;
-    background-color: #0078d4;
-    ;
-    /* Customize button colors */
+    background-color: #0078d4;;
+    color: white;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.edit-card-btn{
+    font-size: medium;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #0078d4;;
     color: white;
     border: none;
     cursor: pointer;

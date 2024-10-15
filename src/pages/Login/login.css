@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 89vh;
     width: 100vw;;
     background-color: #f0f2f5;
 }
@@ -17,9 +17,8 @@
         border: white 1px solid;
         border-radius: 0.25rem; 
         background-color: #ffffff; 
-        padding-left: 1.75rem; 
-        padding-right: 1.75rem; 
-        padding-top: 4.5rem;         
+        padding-left: 1.75rem;  
+        padding-top: 4rem;         
         padding-bottom: 4.5rem; 
 }
 .create-an-account{
@@ -38,7 +37,7 @@
 .btn-primary{
     border: 1px solid;
     border-radius: 0.25rem;
-    width: 320px;
+    width: 340px;
     height: 40px;
     font-size: medium;
     background-color: #0078d4;

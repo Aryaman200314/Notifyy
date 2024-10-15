@@ -1,5 +1,5 @@
 .signup-page-container{
-    height: 41.2rem;
+    height: 89vh;
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
@@ -12,7 +12,6 @@
     border-radius: 0.25rem; 
     background-color: #ffffff; 
     padding-left: 1.75rem; 
-    padding-right: 1.75rem; 
     padding-top: 2.5rem;         
     padding-bottom: 2.5rem; 
 }
