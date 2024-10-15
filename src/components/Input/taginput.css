@@ -1,0 +1,80 @@
+/* .add-tags-container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 3px;
+
+}
+.tag-input-modal{
+    color: rgb(82, 82, 252);
+    font-size: x-large;
+    transition: transform 0.2s ease;
+
+}
+.tag-input-modal:hover{
+    transform: scale(1.2);
+}
+.input-form-tags{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+
+} */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .tag {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .remove-tag-btn {
+    background: none;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    color: rgb(250, 82, 82);
+  }
+  
+  .add-tags-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    padding-top: 3px;
+  }
+  
+  .input-form-tags {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1;
+  }
+  
+  .add-tag-btn {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 8.7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .add-tag-btn:hover {
+
+    background-color: #005fa8;
+  }
+  
+  .tag-input-modal {
+    font-size: 20px;
+  }
+  

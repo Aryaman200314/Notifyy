@@ -1,0 +1,80 @@
+/* Basic styling for the navbar */
+.navbar-container {
+    background-color: #0072c6;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo */
+    padding: 10px 20px;
+    height: 70px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    position: relative;
+  }
+  
+  .navbar-log-img {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center the logo using absolute positioning */
+  }
+  
+  /* Styling for Connect Info */
+  .connect-info {
+    position: absolute;
+    right: 20px; /* Align Connect Me info to the right */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ff5252;
+  }
+  
+  /* Hamburger icon styling for smaller screens */
+  .hamburger-icon {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; /* Align hamburger icon to the right */
+  }
+  
+  /* Make the Connect Info responsive */
+  @media screen and (max-width: 768px) {
+    .connect-info {
+      display: none; /* Hide the connect info by default */
+    }
+  
+    .hamburger-icon {
+      display: block; /* Show the hamburger icon on smaller screens */
+    }
+  
+    /* Show the connect info when the menu is active */
+    .connect-info.active {
+      display: flex;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #0072c6;
+      padding: 10px;
+      border-radius: 5px;
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .navbar-log-img {
+      width: 100px; /* Adjust logo size on smaller screens */
+      height: 40px;
+    }
+  }
+  

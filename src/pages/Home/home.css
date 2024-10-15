@@ -1,0 +1,89 @@
+.note-card-container {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.note-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.add-new-btn-container {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #0078d4;
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-new-btn-container:hover {
+    background-color: #005fa8;
+}
+.add-new-icon{
+    transition: tranform 0.3s ease;
+}
+.add-new-icon:hover{
+    transform:scale(1.1);
+}
+.edit-card-modal {
+    width: 40%;
+    max-height: 75%;
+    background: white;
+    border-radius: 10px; /* Increase the border-radius for smoother corners */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add more padding for a better look */
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds */
+    position: fixed; /* Make it stay in place */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the top and left to actually center it */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    z-index: 1000; /* Ensure it appears on top of other content */
+}
+.notify-span{
+    font-weight: 700;
+    font-size: larger;
+}

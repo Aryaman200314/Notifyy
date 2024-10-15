@@ -1,0 +1,64 @@
+/* Container for the toast */
+.toast-container {
+    transition: all 0.4s ease;
+    opacity: 0;
+  }
+  
+  .toast-container.show {
+    opacity: 1;
+  }
+  
+  .toast-container.hide {
+    opacity: 0;
+  }
+  
+  /* Main toast styles */
+  .toast {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    max-width: 300px;
+  }
+  
+  /* Toast variants */
+  .toast.delete {
+    border-color: #f44336; /* Red border for delete */
+  }
+  
+  .toast.success {
+    border-color: #4caf50; /* Green border for success */
+  }
+  
+  /* Icon styling */
+  .toast-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+  }
+  
+  .toast.delete .toast-icon {
+    background-color: #ffebee;
+    color: #f44336; /* Red icon color for delete */
+  }
+  
+  .toast.success .toast-icon {
+    background-color: #e8f5e9;
+    color: #4caf50; /* Green icon color for success */
+  }
+  
+  /* Message styling */
+  .toast-message {
+    font-size: 16px;
+    color: #333;
+  }
+  

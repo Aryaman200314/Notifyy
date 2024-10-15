@@ -1,0 +1,63 @@
+.from-para{
+    font-size: 0.087rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.login-upper-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;;
+    background-color: #f0f2f5;
+}
+.login-inner-div{
+        box-shadow: 1px 1px 2px 2px #d3d3d3;
+        width: 24rem; 
+        border: white 1px solid;
+        border-radius: 0.25rem; 
+        background-color: #ffffff; 
+        padding-left: 1.75rem; 
+        padding-right: 1.75rem; 
+        padding-top: 4.5rem;         
+        padding-bottom: 4.5rem; 
+}
+.create-an-account{
+    text-decoration: underline;
+    color: blue;
+}
+.input-box{
+    border: 1px solid #d3d3d3;
+    width: 320px;
+    height: 50px;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.btn-primary{
+    border: 1px solid;
+    border-radius: 0.25rem;
+    width: 320px;
+    height: 40px;
+    font-size: medium;
+    background-color: #0078d4;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+    background-color: #005fa8;
+}
+.login-inner-div h4{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.error-message{
+    color: rgb(255, 34, 34);
+    font-size: small;
+    padding: 0px;
+    margin: 0px;
+}

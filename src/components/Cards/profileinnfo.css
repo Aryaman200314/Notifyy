@@ -1,0 +1,30 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.profile-icon-holder{
+    font-weight: 700;
+    font-size: medium;
+    background-color: #b3d6f2;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.logout-btn{
+    font-size: medium;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+.logout-btn:hover{
+    cursor: pointer;
+}
+.user-details p {
+ color: white;
+}

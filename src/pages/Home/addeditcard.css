@@ -1,0 +1,90 @@
+.edit-card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.title {
+    font-weight: 500;
+    font-size: large;
+}
+
+.title-placeholder-text-edit-card {
+    outline: none;
+    border-radius: 7px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.edit-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.content {
+    font-weight: 500;
+    font-size: large;
+}
+
+.content-placeholder-text-edit-card {
+    outline: none;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin-top: 5px;
+    height: 220px;
+    width: 570px;
+    background-color: #d2d2d288;
+}
+
+.edit-card-btn {
+    font-size: medium;
+    margin-top: 7px;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 70px;
+}
+
+.tags {
+    font-weight: 500;
+    font-size: large;
+}
+
+.add-close-btn-container {
+    display: flex;
+    justify-content: space-between;
+    /* This will move the buttons to opposite corners */
+    align-items: center;
+    /* Align the buttons vertically in the middle */
+    width: 100%;
+    /* Make sure the container spans full width */
+}
+
+.edit-card-btn,
+.close-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0078d4;
+    ;
+    /* Customize button colors */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.edit-card-btn:hover,
+.close-btn:hover {
+    background-color: #005fa8;
+    color: white;
+}
+
+.handleAddNote {
+    color: red;
+    font-size: small;
+}
