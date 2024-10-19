@@ -23,9 +23,13 @@
     background-color: #0072c6;
     border: none;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
 .logout-btn:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
 }
 .user-details p {
  color: white;

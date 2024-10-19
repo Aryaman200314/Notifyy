@@ -41,12 +41,6 @@
     padding: 4px;
     padding-left: 15px;
     margin-top: 5px;
-    height: 220px;
-    width: 595px;
-    max-width: 610px;
-    min-width: 595px;
-    min-height: 220px;
-    max-height: 350px;
     border: none;
     background-color: #d2d2d288;
     margin-bottom: 10px;
@@ -73,11 +67,10 @@
 .add-close-btn-container {
     display: flex;
     justify-content: space-between;
-    /* This will move the buttons to opposite corners */
     align-items: center;
-    /* Align the buttons vertically in the middle */
+
     width: 100%;
-    /* Make sure the container spans full width */
+   
 }
 
 .close-btn {
@@ -113,4 +106,4 @@
 .handleAddNote {
     color: red;
     font-size: small;
-}
+} 
