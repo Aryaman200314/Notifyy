@@ -1,4 +1,114 @@
+/* Container for the note cards */
 .note-card-container {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  
+  .note-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 column by default */
+    gap: 16px;
+    margin-top: 8px;
+  }
+  
+  /* Responsive grid for different screen sizes */
+  @media (min-width: 640px) {
+    .note-cards {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet-sized screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .note-cards {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+    }
+  }
+  
+  /* Add Note Button - Floating Button */
+  .add-new-btn-container {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #0078d4;
+    color: white;
+    font-size: xx-large;
+    position: fixed; /* Fixed to always be at the bottom */
+    right: 1.5rem;
+    bottom: 1.5rem;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 100; /* Ensure it's always on top */
+  }
+  
+  .add-new-btn-container:hover {
+    background-color: #005fa8;
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  /* Modal Styling */
+  .edit-card-modal {
+    width: 90%; /* Default width for mobile */
+    max-height: 75%;
+    background: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  @media (min-width: 640px) {
+    .edit-card-modal {
+      width: 70%; /* Wider on larger screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .edit-card-modal {
+      width: 50%; /* Even wider on desktop */
+    }
+  }
+  
+  /* Handling Empty State */
+  .notify-span {
+    font-weight: 700;
+    font-size: larger;
+  }
+  
+  /* General Responsiveness */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px; /* Slightly larger font size for larger screens */
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+/* .note-card-container {
     width: 90%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -73,18 +183,18 @@
     width: 40%;
     max-height: 75%;
     background: white;
-    border-radius: 10px; /* Increase the border-radius for smoother corners */
-    margin: 0 auto; /* Center horizontally */
-    padding: 20px; /* Add more padding for a better look */
-    overflow-y: auto; /* Allow vertical scrolling if content exceeds */
-    position: fixed; /* Make it stay in place */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset the top and left to actually center it */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-    z-index: 1000; /* Ensure it appears on top of other content */
+    border-radius: 10px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    overflow-y: auto; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
 }
 .notify-span{
     font-weight: 700;
     font-size: larger;
-}
+} */
