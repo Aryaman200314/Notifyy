@@ -53,6 +53,7 @@ function SignUp() {
         setError(error.response.data.message);
       } else {
         setError("An error has occurred. Please try again.");
+        alert("Please try again after 1-2 minutes");
       }
     }
   };

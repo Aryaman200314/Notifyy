@@ -43,6 +43,7 @@ function Login() {
       }
       else{
         setError("An error has occured. Please try again later");
+        alert("Please try again after 1-2 minutes");
       }
     }
 
