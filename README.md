@@ -1,6 +1,6 @@
 # Full code for this website is at: https://github.com/Aryaman200314/Notify_fullCode
 
-![My Image](https://github.com/username/repo-name/blob/main/images/my-image.png)
+![Alt text](https://github.com/Aryaman200314/Notifyy/blob/master/Screenshot%202024-10-20%20223842.png?raw=true)
 
 # Getting Started with Create React App
 
